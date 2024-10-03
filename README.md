@@ -14,6 +14,8 @@ AWS CLI を使う際、セキュアな認証方法の一つとして、AWS STS �
   - powershell の実行環境があること。
   - aws cli のインストールが完了していること。
   - 上記に付随し、userディレクトリ配下に .awsフォルダが存在していること。
+  - AWSPowerShellモジュールがインストールされていること(インストール有無確認と、インストール方法は[HowToInstallAWSPowershell.md](./HowToInstallAWSPowershell.md)参照)
+
 - #### **<u>STEP1 : IAM ユーザーの作成</u>**
 
   - AWS マネジメントコンソールの IAM メニューにて、AWS CLI アクセス用の IAM ユーザーを作成する。権限設定は組織のルールに従って設定する。
