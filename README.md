@@ -18,14 +18,14 @@ AWS CLI を使う際、セキュアな認証方法の一つとして、AWS STS �
 
   - AWS マネジメントコンソールの IAM メニューにて、AWS CLI アクセス用の IAM ユーザーを作成する。権限設定は組織のルールに従って設定する。
   - 作成した IAM ユーザーの概要メニューで、「セキュリティ認証情報」タブ内、「多要素認証(MFA)」セクションで、自身のスマホ等の authentificator ツールを使って、MFA デバイスとして登録する。
-    ![alt text](readme_images\fig_security_tab_on_IAM.png)
-    ![alt text](readme_images\fig_MFA_device_assignment.png)
+    ![alt text](./readme_images/fig_security_tab_on_IAM.png)
+    ![alt text](./readme_images/fig_MFA_device_assignment.png)
   - ここで登録したデバイスの arn を控えておく。
-    ![alt text](readme_images\fig_MFA_device_arn.png)
+    ![alt text](./readme_images/fig_MFA_device_arn.png)
 
 - #### **<u>STEP2 : アクセスキーの作成 </u>**
   - マネジメントコンソールのIAMメニューにおいて、step1で作成したIAMユーザーのアクセスキーを作成する。secret_access_key は作成時の一度しか確認できないので注意。
-  ![alt text](readme_images\fig_publish_access_key.png)
+  ![alt text](./readme_images/fig_publish_access_key.png)
   ここで作成したアクセスキーの access_key_id と secret_access_key を控えておく。
 
 
