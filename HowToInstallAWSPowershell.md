@@ -25,7 +25,8 @@ Register-PSRepository -Default
 
 ![alt text](./readme_images/HowToInstallAWSPowershell/fig_get-PSRepository.png)
 
-この状態で、下記コマンドを実行 (途中の質問は Y の回答でOK)
+## step3: AWSPowerShellモジュールのインストール
+下記コマンドを実行 (途中の質問は Y の回答でOK)
 ```powershell
 Install-Module -Name AWSPowerShell
 ```
